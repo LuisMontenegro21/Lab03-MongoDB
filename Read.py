@@ -10,7 +10,7 @@ db = client['cliente']
 collection = db['nombre_base']
 
 # Preparar las oepraciones bulk write 
-operations = [InsertOne(row.to_dict()) for index, row in df.iterrows()]
+operations = [InsertOne(row.to_dict()) for index, row in dataframe.iterrows()]
 
 # Ejecutar bulk write
 collection.bulk_write(operations)
