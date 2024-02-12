@@ -1,3 +1,7 @@
+# Gabriel García 21351
+# Luis Pedro Montenegro 21669
+# Sebastian Juarez 21471
+
 import pandas as pd
 from pymongo import MongoClient, InsertOne
 
